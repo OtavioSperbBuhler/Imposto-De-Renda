@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Calculadora - Salário Líquido">
+    <meta name="author" content="Otávio Sperb Bühler">
+    <title>Calculadora - Salário Líquido</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav>
+	    <div id="logo-nav"></div>
+	    <div><p id="text-nav"> CALCULADORA - SALÁRIO LÍQUIDO</div>
+    </nav>
+
+    <div id="div-form">
+      <form>
+        <label for="nome" id="lblnome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="DIGITE SEU NOME" value="">
+      <br>
+        <label for="salarioBruto">Salário Bruto:</label>
+        <input type="number" name="salarioBruto" id="salarioBruto" placeholder="(R$)">
+      </form>
+	  <div id="div-btn">
+	      <button onclick="salarioL()" class="btn"><i class="fa fa-calculator"></i></button>
+    	  <button onclick="reloadPage()" class="btn" id="btn-reload"><i class="fa fa-undo"></i></button>
+ 	  </div>
+    </div>
+
+	  <div>
+	      <table id="tabela">
+		      <thead>
+			      <th>Nome</th>
+			      <th>Salário Bruto</th>
+			      <th>Desconto INSS</th>
+			      <th>Desconto IRPF</th>
+			      <th>Salário Líquido</th>
+		      </thead>
+	      </table>
+	  </div>
+
+	  <br>
+
+    <script src="script.js" charset="utf-8"></script>
+	  <footer>Otávio Sperb Bühler © 2021 - Criação De Sites - Turma INFO 62MB</footer>
+</body>
+
+</html>

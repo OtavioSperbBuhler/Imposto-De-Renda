@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+	  background-color: #118d2f;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-repeat:repeat;
+}
+
+nav{
+	  background-color:#f5df00;
+	  font-size: 3vw;
+	  padding: 1vw;
+}
+
+#logo-nav{
+	  width:11vw;
+	  height:8vw;
+	  background-image: url("../img/Brasil\ -\ Logo.png");
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  display:inline-block;
+}
+
+#text-nav{
+	  display:inline;
+	  width: 70%;
+	  float:right;
+	  margin-top: -6vw;
+	  font-weight:bold;
+	  text-align:center;
+	  margin-right: 10vw;
+    color: black;
+}
+
+#div-form{
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+form{
+    background-color: #002776;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-top: 5vw;
+    width: 100%;
+    border: solid 3px black;
+}
+
+label{
+    margin-left: 2vw;
+    font-size: 3vw;
+    color: white;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 3vw;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    border:solid 3px black;
+}
+
+#salarioBruto{
+    width: 40%;
+}
+
+#div-btn{
+	  display: flex;
+	  flex-direction: row;
+ 	  padding-left: 13vw;
+	  margin-left:10%;
+	  width:100%;
+}
+
+.btn{
+    margin: 4vw;
+    padding: 1vw;
+    width: 10vw;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-size: 3.5vw;
+}
+
+/* tabela */
+table{
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+
+th{
+    background-color: #002776;
+    font-size: 2vw;
+    color: white;
+}
+
+td{
+    background-color: white;
+    font-size: 2vw;
+    padding: 0.3vw;
+    color: black;
+    font-weight:bold;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    width: auto;
+}
